@@ -8,8 +8,7 @@ spec:
   podSelector: {}
   policyTypes:
   - Ingress
-  - Egress
-
+ 
 ---
 # frontend -> backend
 apiVersion: networking.k8s.io/v1
